@@ -4,7 +4,7 @@
     "editor.fontSize": 16,
     "editor.lineHeight": 1.75,
     "editor.fontFamily": "IBM Plex Mono",
-    "editor.tabSize": 2,
+    "editor.tabSize": 4,
     "workbench.startupEditor": "newUntitledFile",
     "editor.wordWrap": "on",
     "editor.minimap.renderCharacters": false,
