@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,8 +11,9 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    
+
 </head>
+
 <body id="contato">
     <header class="header-bg">
         <div class="header container">
@@ -67,22 +69,57 @@
                         <input type="text" id="nome" name="nome" placeholder="Seu nome">
                     </div>
                     <div>
-                        <label for="telefone"></label>
+                        <label for="telefone">Telefone</label>
                         <input type="text" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx">
                     </div>
-                    <div>
-                        <label for="email"></label>
+                    <div class="col-2">
+                        <label for="email">Email</label>
                         <input type="email" id="email" name="email" placeholder="contato@email.com">
                     </div>
-                    <div>
-                        <label for="email"></label>
+                    <div class="col-2">
+                        <label for="email">Mensagem</label>
                         <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
                     </div>
-                    <button class="botao">Enviar mensagem</button>
+                    <button class="botao col-2">Enviar mensagem</button>
                 </form>
             </section>
         </div>
     </main>
+
+    <article class="lojas container">
+        <h2 class="font-1-xxl">lojas locais <span class="cor-p1">.</span></h2>
+        <div class="lojas-item">
+            <img src="./img/lojas/rj.jpg" alt="mapa marcando endereço em rua ali perto, 25 - rio de janeiro - rj">
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">Rio de Janeiro</h3>
+                <div class="lojas-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 25</p>
+                    <p>Rio de Janeiro - RJ</p>
+                </div>
+                <div class="lojas-dados font-2-s cor-8">
+                    <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+                    <a href="tel:+552199999999">+55 21 9999-9999</a>
+                </div>
+                <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+            </div>
+        </div>
+
+        <div class="lojas-item">
+            <img src="./img/lojas/sp.jpg" alt="mapa marcando endereço em rua ali perto, 25 - são paulo - sp">
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">São Paulo</h3>
+                <div class="lojas-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 25</p>
+                    <p>São Paulo - SP</p>
+                </div>
+                <div class="lojas-dados font-2-s cor-8">
+                    <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+                    <a href="tel:+552199999999">+55 11 9999-9999</a>
+                </div>
+                <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" alt="">08-18h de seg à dom</p>
+            </div>
+        </div>
+    </article>
 
     <footer class="footer-bg">
         <div class="footer container">
@@ -114,8 +151,8 @@
                     <ul class="font-1-m cor-5">
                         <li><a href="./bicicletas.html">Bicicletas</a></li>
                         <li><a href="./seguros.html">Seguros</a></li>
-                        <li><a href="./contato.html">Contato</a></li>                    
-                        <li><a href="./termos.html">Termos e Condições</a></li>                    
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./termos.html">Termos e Condições</a></li>
                     </ul>
                 </nav>
             </div>
@@ -124,4 +161,5 @@
     </footer>
 
 </body>
+
 </html>
