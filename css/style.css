@@ -1,5 +1,7 @@
 @import './global/global.css';
 @import './utilidades/tipografia.css';
+@import './utilidades/cores.css';
+@import './utilidades/animacao.css';
 
 
 @import './global/header.css';
@@ -7,7 +9,6 @@
 
 /* Utilidades */
 @import './utilidades/componentes.css';
-@import './utilidades/cores.css';
 @import './utilidades/formulario.css';
 
 /* Home */
@@ -36,7 +37,8 @@
 @import './contato/contato.css';
 @import './contato/lojas.css';
 
-
+/* Orcamento */
+@import './orcamento/orcamento.css';
 
 /* Termos */
 @import './termos/termos.css';

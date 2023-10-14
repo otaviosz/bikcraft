@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft - Bicicletas Elétricas</title>
     <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+
+    <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet"> -->
-    
+
+    <script>document.documentElement.classList.add('js')</script>
 </head>
+
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="../"><img src="./img/bikcraft.svg" alt="Bikcraft"></a>
+            <a href="../"><img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
 
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-0">
@@ -30,16 +35,18 @@
     <main class="introducao-bg">
         <div class="introducao container">
             <div class="introducao-conteudo">
-                <h1 class="font-1-xxl  cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-                <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+                <h1 class="font-1-xxl  cor-0 fadeInLeft" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+                <p class="font-2-l cor-5 fadeInLeft" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <a class="botao" data-anime="600 fadeInLeft" href="./bicicletas.html">Escolha a sua</a>
             </div>
-            <div>
-                <img src="./img/fotos/introducao.jpg" alt="Bicicleta eletrica preta">
-            </div>
+            <picture data-anime="800" class="fadeInLeft">
+                <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+                <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta eletrica preta">
+            </picture>
+
         </div>
     </main>
-    
+
     <article class="bicicletas-listas">
         <h2 class="font-1-xxl container">escolha a sua<span class="cor-p1">.</span></h2>
 
@@ -81,7 +88,8 @@
                         <img src="./img/icones/eletrica.svg" alt="">
                         <h3 class="font-1-m cor-0">Motor Elétrico</h3>
                         <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
-                    </div>                <div>
+                    </div>
+                    <div>
                         <img src="./img/icones/rastreador.svg" alt="">
                         <h3 class="font-1-m cor-0">Rastreador</h3>
                         <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
@@ -185,8 +193,8 @@
                     <ul class="font-1-m cor-5">
                         <li><a href="./bicicletas.html">Bicicletas</a></li>
                         <li><a href="./seguros.html">Seguros</a></li>
-                        <li><a href="./contato.html">Contato</a></li>                    
-                        <li><a href="./termos.html">Termos e Condições</a></li>                    
+                        <li><a href="./contato.html">Contato</a></li>
+                        <li><a href="./termos.html">Termos e Condições</a></li>
                     </ul>
                 </nav>
             </div>
@@ -194,5 +202,8 @@
         </div>
     </footer>
 
+    <script src="./plugins/simple-anime.js"></script>;
+    <script src="./script/script.js"></script>
 </body>
+
 </html>
